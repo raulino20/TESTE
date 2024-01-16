@@ -1,0 +1,255 @@
+.container08{
+    background-image: url(../imagens/humanFlight/01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container09{
+    background-image: url(../imagens/humanFlight/02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a{
+    color: $link-hover;
+}
+
+.container10{
+    background-image: url(../imagens/humanFlight/03.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container11{
+    background-image: url(../imagens/humanFlight/04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container12{
+    background-image: url(../imagens/humanFlight/05.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header{
+    width: 100%;
+}
+
+.navbar{
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.5rem 0.5rem ;
+
+}
+//lua e terra//
+
+.containerRightContent{
+width: auto;
+display: flex;
+margin-left: 55%;
+padding-top: 15%;
+flex-direction: column;
+align-items: left;
+}
+
+@media(max-width:1024px){
+    .containerRightContent{
+        width: auto;
+    }
+}
+
+@media(max-width:768px){
+    .containerRightContent{
+        width: auto;
+        
+    }
+}
+
+@media(max-width:425px){
+    .containerRightContent{
+        width: auto;
+        margin-left: 20%;
+        padding-top: 30%;
+        text-align: left;
+    }
+}
+
+    //ESTAÇÃO E MARTE// 
+
+.containerLeftContent{
+    margin-left: 5%;
+    padding-top: 15%;
+}
+
+@media(max-width:1024px){
+    .containerLeftContent{
+        width: auto;
+    }
+}
+
+@media(max-width:768px){
+    .containerLeftContent{
+        width: auto;
+    }
+}
+
+@media(max-width:425px){
+    .containerLeftContent{
+        width: auto;
+        margin-right: 20%;
+        padding-top: 30%;
+    }
+}
+
+
+
+.titleSection{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+@media(max-width:1024px){
+    .titleSection{
+        font-size: 60px;
+    }
+}
+
+@media(max-width:768px){
+    .titleSection{
+        font-size: 50px;
+    }
+}
+
+.container01Content{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media(max-width:425px){
+    .container01Content{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.subtTitle{
+ font-size: 40px;
+ font-weight: 300;
+}
+
+p{
+    margin:20px 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+@media(max-width:425px){
+    p{
+        font-size: 16px;
+    }
+}
+
+h1{
+    font-size: 120px;
+    text-shadow: 0.5rem 0.5rem 1rem black;
+    font-weight: 500;
+}
+
+@media(max-width:1024px){
+    h1{
+        font-size:70px;
+    }
+}
+
+
+@media(max-width:425px){
+    h1{
+        font-size: 40px;
+    }
+}
+
+.arrowDown{
+    width: 120px;
+}
+
+@media(max-width:425px){
+    .arrowDown{
+        display: none;
+    }
+}
+
+
+
+.eartDesc{
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textContent{
+    width: 800px;
+    color: #d8d8d8;
+    font-size: 20px;
+}
+
+@media(max-width:425px){
+    .textContent{
+        width: auto;
+        font-size: 14px;
+    }
+}
+
+// foooter humanSpace, falcon e index //
+.center{
+    width: auto;
+    display: wrap;
+    align-items: center;
+    text-align: center;    
+    margin: auto;
+}
+
+@media(max-width:425px){
+    .center{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+}
+
+.btn{
+color: #d8d8d8;
+transition: 2s;
+    &:hover{
+        color: black;
+        transition: 2s;
+        background-color: #d8d8d8;
+    }
+}
+
+@media(max-width:491px){
+    .btn{
+        padding: 20px 20px;
+        margin-bottom: 2vh;
+    }
+}
