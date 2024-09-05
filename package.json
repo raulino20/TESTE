@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "icons": "^1.0.0",
+    "install": "^0.13.0",
+    "sass": "^1.60.0"
+  }
+}
